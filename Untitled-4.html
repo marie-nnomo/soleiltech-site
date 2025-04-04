@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoleilTech - Solar Panel Installation in Nantes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      scroll-behavior: smooth; /* Smooth scrolling effect */
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1509395176047-4a66953fd231') no-repeat center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+    }
+    nav {
+      background: #007B33;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      display: block;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .card img.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .affiche {
+      background: #007B33;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 40px auto;
+      border-radius: 10px;
+      max-width: 1000px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .affiche h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .affiche p {
+      font-size: 1.2em;
+    }
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: #007B33;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .internship-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .internship-list li {
+      background-color: #f9f9f9;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .internship-list h3 {
+      color: #007B33;
+    }
+    .internship-list p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SoleilTech - Solar Energy Experts in Nantes</h1>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#internships">Internships</a>
+  </nav>
+
+  <section class="affiche">
+    <h2>Power Your Future with Solar Energy</h2>
+    <p>Join SoleilTech, a leading solar energy company in Nantes, dedicated to harnessing the power of the sun to create sustainable energy solutions. We are committed to promoting renewable energy for a cleaner, greener future. Apply for an internship or apprenticeship to kick-start your career in solar energy!</p>
+    <img src="https://images.unsplash.com/photo-1593642532875-8c61f7b57d1e" alt="Solar panels" style="width: 100%; max-width: 600px; border-radius: 10px; margin-top: 20px;">
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1602526210353-4d1adfc1774a" alt="Our company">
+      <p><strong>SoleilTech</strong> is a solar energy company based in <strong>Nantes, France</strong>. We specialize in the installation of high-quality solar panels for both residential and commercial buildings. Our mission is to make solar power accessible, affordable, and efficient for everyone.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1584270354836-b2d4c9a703c7" alt="Panel Installation">
+      <h3>Installation</h3>
+      <p>Certified solar panel installation on rooftops or ground-level structures using top-tier materials.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1623820937680-bd8cb0a91c3f" alt="Maintenance">
+      <h3>Maintenance</h3>
+      <p>Ongoing performance monitoring and maintenance to ensure maximum efficiency.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581093448790-a1d4d2225a10" alt="Consulting">
+      <h3>Consulting & Feasibility Study</h3>
+      <p>Custom energy assessments, ROI estimates, and full support with government subsidies.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Recent Projects</h2>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1618773928121-c32242e7d82f" alt="Project Nantes">
+      <p>Solar installation for a family home in Nantes - 2024</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1574873114341-982d8b090524" alt="Commercial Solar">
+      <p>20-panel commercial system for an office in Bordeaux - 2024</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616351168473-69cba0f6120c" alt="Off-grid system">
+      <p>Fully off-grid eco-house in Toulouse - 2023</p>
+    </div>
+  </section>
+
+  <section id="internships">
+    <h2>Internships & Apprenticeships at SoleilTech</h2>
+    <p>At SoleilTech, we believe in developing the next generation of renewable energy leaders. We offer various internship and apprenticeship opportunities for students passionate about the environment and solar technology. By joining us, you will gain hands-on experience working alongside experts in the field.</p>
+
+    <h3>Internship Opportunities</h3>
+    <ul class="internship-list">
+      <li>
+        <h3>Solar Panel Technician Internship (6-month duration)</h3>
+        <p><strong>Mission:</strong> Assist our team in the installation, maintenance, and troubleshooting of solar panel systems for residential and commercial projects. Gain hands-on experience in solar energy technology and project management.</p>
+        <p><strong>Advantages:</strong> Opportunity to learn from experienced technicians, exposure to a variety of solar systems, and a chance to develop your technical skills.</p>
+        <p><strong>Profile Sought:</strong> Students from engineering schools, level B2 in English, team-oriented, strong communication skills, and a passion for renewable energy.</p>
+      </li>
+      <li>
+        <h3>Project Management Assistant Internship (6-month duration)</h3>
+        <p><strong>Mission:</strong> Support project managers in planning, organizing, and executing solar energy projects. Ensure projects are delivered on time and within budget while working with various teams.</p>
+        <p><strong>Advantages:</strong> Learn project management techniques, collaborate with engineers and technicians, and gain valuable experience in the solar energy industry.</p>
+        <p><strong>Profile Sought:</strong> Engineering or business students with a B2 level of English, excellent organizational skills, and an interest in sustainability and project management.</p>
+      </li>
+    </ul>
+
+    <h3>Apprenticeship Opportunities</h3>
+    <ul class="internship-list">
+      <li>
+        <h3>Solar Energy Consultant Apprenticeship (1-year contract)</h3>
+        <p><strong>Mission:</strong> Learn the ins and outs of solar energy solutions. Assist our consultants in assessing client needs, providing customized solutions, and supporting the application for government subsidies and incentives.</p>
+        <p><strong>Advantages:</strong> Work closely with experienced consultants, engage in client interactions, and help develop sustainable energy solutions.</p>
+        <p><strong>Profile Sought:</strong> Engineering students, level B2 in English, excellent communication skills, and a passion for renewable energy solutions.</p>
+      </li>
+      <li>
+        <h3>Solar Panel Design Apprentice (1-year contract)</h3>
+        <p><strong>Mission:</strong> Work alongside our engineering team to design solar panel systems tailored to client specifications. Contribute to the technical aspects of the design and implementation of solar installations.</p>
+        <p><strong>Advantages:</strong> Gain exposure to cutting-edge design tools, work on real-world projects, and deepen your understanding of solar energy systems.</p>
+        <p><strong>Profile Sought:</strong> Engineering students with strong technical skills, proficiency in design software, and a commitment to renewable energy.</p>
+      </li>
+    </ul>
+
+    <h3>How to Apply</h3>
+    <p>If you are passionate about solar energy and want to work with a dynamic team, please apply by filling out the form below. Attach your CV and tell us why you're a good fit for the role.</p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Why do you want to work with us?" rows="5" required></textarea>
+      <input type="file" name="cv" accept=".pdf,.doc,.doc
